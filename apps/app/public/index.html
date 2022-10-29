@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.gif" type="image/gif" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#F9C4C9" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#F9C4C9" media="(prefers-color-scheme: dark)">
+  <meta name="description" content="Magyarország legújabb receptmegosztó oldala." />
+  <meta name="keywords"
+    content="recept, justsalt, weboldal, barnabasgoz, étel, ebéd, reggeli, vacsora, sütemény, netlify, finom" />
+  <meta name="author" content="Gőz Barnabás" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>Justsalt - A recept megosztó oldal</title>
+  <style>
+    .main {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .center {
+      position: absolute;
+      top: 50%;
+      right: 50%;
+      transform: translate(50%, -50%);
+      z-index: -4444;
+      width: 250px;
+      height: 250px;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Cookie Consent by https://www.PrivacyPolicies.com -->
+  <script type="text/javascript" src="//www.privacypolicies.com/public/cookie-consent/4.0.0/cookie-consent.js"
+    charset="UTF-8"></script>
+  <script type="text/javascript" charset="UTF-8">
+    document.addEventListener("DOMContentLoaded", function () {
+      cookieconsent.run({
+        notice_banner_type: "interstitial",
+        consent_type: "express",
+        palette: "light",
+        language: "hu",
+        page_load_consent_levels: ["strictly-necessary"],
+        notice_banner_reject_button_hide: false,
+        preferences_center_close_button_hide: false,
+        website_name:
+          "Justsalt - Magyarország legújabb receptmegosztó oldala",
+        website_privacy_policy_url:
+          "https://justsalt-server.herokuapp.com/upload/Privacy_Policy.pdf",
+      });
+    });
+  </script>
+
+  <!-- Google Analytics -->
+  <script type="text/plain" cookie-consent="tracking" async
+    src="https://www.googletagmanager.com/gtag/js?id=G-XVJEBNZGDR"></script>
+  <script type="text/plain" cookie-consent="tracking">
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-XVJEBNZGDR");
+    </script>
+  <!-- end of Google Analytics-->
+
+  <noscript>Cookie Consent by
+    <a href="https://www.PrivacyPolicies.com/cookie-consent/" rel="nofollow noopener">PrivacyPolicies.com</a></noscript>
+  <!-- End Cookie Consent -->
+  <div id="root"></div>
+</body>
+
+</html>

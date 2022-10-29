@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Montserrat', sans-serif;
+}
+.header {
+  background-image: url(/src/upload/header.webp);
+}
+
+
+.bghero{
+  background-image: url(/src/upload/hero-ossz.webp);
+}
+
+.ossz-filter{
+  width: 98vw;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .ossz-filter{
+  width: 98vw;
+  height: auto;
+}
+}
+
+.ossz-slider{
+  width: 100%;
+  height: auto;
+  background-color: rgba(254, 202, 202,);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .ossz-slider{
+  width: 100%;
+  height: auto;
+  background-color: rgba(254, 202, 202,);
+}
+}
+
+.bg-red-400{
+  color: #C56155 !important;
+}
+
+.szurkitett{
+
+color: rgb(25 ,25,25)
+
+}
+
+.csmbordercolor{
+  border-color: rgb(245, 113, 113);
+}
+
+.custompos23{
+top: -5rem;
+}
+
+.glassbck{
+  background: rgba(0, 0, 0, 0.35);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+  border-radius: 10px;
+}
+
+.glassbck2{
+  background: rgba(0, 0, 0, 0.35);
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  -webkit-backdrop-filter: blur( 4px );
+}
+
+.h-screen2{
+  height: 80vh;
+}
+
+.bg-pic1{
+  background-image: url(/src/upload/bgpic.webp);
+}
+
+.bg-red-200 {
+  background-color: rgb(250, 196, 200);
+}
+
+.bg-pic2{
+  background-image: url(/src/upload/login_page_bg.webp);
+}
+
+.pt-13{
+  padding-top: 3.25rem;
+}
+
+.center-everything{
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.font-montserrat{
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  font-family: 'Montserrat', sans-serif;
+}
+
+.bar-h {
+  height: 900px;
+}
+
+.bg-grey-receptek{
+  background-color: rgb(245, 222, 224);
+}
+
+.bg-grey {
+  background-color: rgb(250, 187, 194);
+}
+
+.oszz-elkeszites{
+  width: 280px;
+} 
+
+.ossz-card{
+  height: 26rem;
+}

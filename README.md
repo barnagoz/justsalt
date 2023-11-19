@@ -1,6 +1,10 @@
-# Justsalt
+# Justsalt ⚠️ Deprecated
 
-This is the official Justsalt monorepo.
+A recipe sharing site made from scratch.
+
+> **Warning ⚠️**
+> This app is deprecated. Now is just an archive.
+> Lot of security warnings, recommended npm update, when used.
 
 ## What's inside?
 
